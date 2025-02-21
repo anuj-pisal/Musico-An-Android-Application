@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Musico</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="sea">Search</string>
+    <string name="lib">Libraries</string>
+    <string name="title1">Today\'s Biggest Hits</string>
+    <string name="title2">Trending Now</string>
+    <string name="title3">Top Hindi Playlists</string>
+    <string name="title4">Top English Playlists</string>
+    <string name="title5">Top Marathi Playlists</string>
+    <string name="song1">I Think They Call This Love</string>
+    <string name="writer1">Matthew Ifield</string>
+    <string name="song2">Tum Prem Ho</string>
+    <string name="writer2">Mohit Lalwani, Bharat Kamal</string>
+    <string name="song3">Dhaga Dhaga</string>
+    <string name="writer3">Harsh Wavre, Anandi Joshi</string>
+    <string name="song4">Aaya Re Toofan</string>
+    <string name="writer4">A.R Rahman, Vaishali Samant</string>
+
+</resources>
