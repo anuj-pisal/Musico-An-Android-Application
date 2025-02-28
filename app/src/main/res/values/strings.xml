@@ -17,5 +17,11 @@
     <string name="writer3">Harsh Wavre, Anandi Joshi</string>
     <string name="song4">Aaya Re Toofan</string>
     <string name="writer4">A.R Rahman, Vaishali Samant</string>
-
+    <string name="song">Enter the song name</string>
+    <string name="singer">Enter the singer name</string>
+    <string name="path">Enter the song id</string>
+    <string name="img">Enter the image id</string>
+    <string name="submit">Submit</string>
+    <string name="sampleSong">I Think they call this love</string>
+    <string name="sampleSinger">Matthew Ifield</string>
 </resources>

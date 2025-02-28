@@ -7,17 +7,6 @@
     android:background="#222222"
     tools:context=".Home">
 
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="12dp"
-        android:src="@drawable/baseline_add_circle_outline_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="ContentDescription" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -95,8 +84,12 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list1_p1"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list1_p1"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView4"
@@ -105,8 +98,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list1_p2"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list1_p2"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView5"
@@ -115,8 +112,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list1_p3"
-                        tools:ignore="ContentDescription,ImageContrastCheck" />
+                        android:tag="R.drawable.list1_p3"
+                        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView6"
@@ -125,7 +126,11 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="20dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list1_p4"
+                        android:tag="R.drawable.list1_p4"
                         tools:ignore="ContentDescription" />
 
                 </LinearLayout>
@@ -163,8 +168,12 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list2_p1"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list2_p1"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView8"
@@ -173,8 +182,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list2_p2"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list2_p2"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView9"
@@ -183,8 +196,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list2_p3"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list2_p3"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView10"
@@ -193,7 +210,11 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="20dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list2_p4"
+                        android:tag="R.drawable.list2_p4"
                         tools:ignore="ContentDescription" />
 
                 </LinearLayout>
@@ -231,8 +252,12 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list3_p1"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list3_p1"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView12"
@@ -241,8 +266,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list3_p2"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list3_p2"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView13"
@@ -251,8 +280,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list3_p3"
-                        tools:ignore="ContentDescription,ImageContrastCheck" />
+                        android:tag="R.drawable.list3_p3"
+                        tools:ignore="ContentDescription,ImageContrastCheck,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView14"
@@ -261,7 +294,11 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="20dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list3_p4"
+                        android:tag="R.drawable.list3_p4"
                         tools:ignore="ContentDescription" />
 
                 </LinearLayout>
@@ -299,8 +336,12 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list4_p1"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list4_p1"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView16"
@@ -309,8 +350,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list4_p2"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list4_p2"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView17"
@@ -319,8 +364,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list4_p3"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list4_p3"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView18"
@@ -329,7 +378,11 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="20dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list4_p4"
+                        android:tag="R.drawable.list4_p4"
                         tools:ignore="ContentDescription" />
 
                 </LinearLayout>
@@ -369,8 +422,12 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list5_p1"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list5_p1"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView20"
@@ -379,8 +436,12 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list5_p2"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list5_p2"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView21"
@@ -388,8 +449,12 @@
                         android:layout_height="150dp"
                         android:layout_marginStart="10dp"
                         android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
                         android:src="@drawable/list5_p3"
-                        tools:ignore="ContentDescription" />
+                        android:tag="R.drawable.list5_p3"
+                        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
                     <ImageView
                         android:id="@+id/imageView22"
@@ -398,7 +463,11 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginEnd="20dp"
                         android:layout_weight="1"
-                        android:src="@drawable/list4_p4"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showList"
+                        android:src="@drawable/list5_p4"
+                        android:tag="R.drawable.list5_p4"
                         tools:ignore="ContentDescription" />
 
                 </LinearLayout>
@@ -420,13 +489,14 @@
                     android:layout_height="40dp"
                     android:layout_marginEnd="12dp"
                     android:layout_marginBottom="12dp"
+                    android:clickable="true"
                     android:contentDescription="TODO"
-                    android:clickable="true
-"                   android:focusable="true"
+                    android:focusable="true"
+                    android:onClick="showAlert"
                     android:src="@drawable/baseline_add_circle_outline_24"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    tools:ignore="ContentDescription,HardcodedText" />
+                    tools:ignore="ContentDescription,HardcodedText,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
 
                 <ImageView
                     android:id="@+id/imageView23"
@@ -464,9 +534,10 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="56dp"
-                    android:alpha="0.8"
+                    android:alpha="0.65"
                     android:clickable="true"
                     android:focusable="true"
+                    android:onClick="playClicked"
                     android:rotation="-90"
                     android:src="@drawable/round_arrow_drop_down_circle_24"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -509,13 +580,14 @@
                     android:layout_height="40dp"
                     android:layout_marginEnd="12dp"
                     android:layout_marginBottom="12dp"
+                    android:clickable="true"
                     android:contentDescription="TODO"
-                    android:clickable="true
-"                   android:focusable="true"
+                    android:focusable="true"
+                    android:onClick="showAlert"
                     android:src="@drawable/baseline_add_circle_outline_24"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    tools:ignore="ContentDescription,HardcodedText" />
+                    tools:ignore="ContentDescription,HardcodedText,TouchTargetSizeCheck" />
 
                 <ImageView
                     android:id="@+id/imageView25"
@@ -553,9 +625,10 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="56dp"
-                    android:alpha="0.8"
+                    android:alpha="0.65"
                     android:clickable="true"
                     android:focusable="true"
+                    android:onClick="playClicked"
                     android:rotation="-90"
                     android:src="@drawable/round_arrow_drop_down_circle_24"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -597,14 +670,15 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_marginEnd="12dp"
-                    android:clickable="true
-"                   android:focusable="true"
                     android:layout_marginBottom="12dp"
+                    android:clickable="true"
                     android:contentDescription="TODO"
+                    android:focusable="true"
+                    android:onClick="showAlert"
                     android:src="@drawable/baseline_add_circle_outline_24"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    tools:ignore="ContentDescription,HardcodedText" />
+                    tools:ignore="ContentDescription,HardcodedText,TouchTargetSizeCheck" />
 
                 <ImageView
                     android:id="@+id/imageView27"
@@ -642,9 +716,10 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="56dp"
-                    android:alpha="0.8"
+                    android:alpha="0.65"
                     android:clickable="true"
                     android:focusable="true"
+                    android:onClick="playClicked"
                     android:rotation="-90"
                     android:src="@drawable/round_arrow_drop_down_circle_24"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -687,9 +762,10 @@
                     android:layout_height="40dp"
                     android:layout_marginEnd="12dp"
                     android:layout_marginBottom="12dp"
+                    android:clickable="true"
                     android:contentDescription="TODO"
-                    android:clickable="true
-"                   android:focusable="true"
+                    android:focusable="true"
+                    android:onClick="showAlert"
                     android:src="@drawable/baseline_add_circle_outline_24"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -707,7 +783,7 @@
                     app:layout_constraintHorizontal_bias="0.008"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="ContentDescription" />
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
 
                 <TextView
                     android:id="@+id/textView16"
@@ -734,6 +810,7 @@
                     android:alpha="0.8"
                     android:clickable="true"
                     android:focusable="true"
+                    android:onClick="playClicked"
                     android:rotation="-90"
                     android:src="@drawable/round_arrow_drop_down_circle_24"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -759,7 +836,19 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
         </LinearLayout>
     </ScrollView>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Other views -->
+
+        <com.example.musico.CustomFloatingButton
+            android:id="@+id/floating_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
